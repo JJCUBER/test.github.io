@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <style>
     button {
       touch-action: manipulation;
@@ -9,5 +10,6 @@
 </head>
 <body>
   <h1>testing</h1>
+  <button onclick="let viewportmeta = document.querySelector('meta[name="viewport"]'); viewportmeta.setAttribute('content', "initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0");"></button>
 </body>
 </html>
